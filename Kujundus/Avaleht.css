@@ -1,5 +1,21 @@
 body{
     background-color: black;
-    color: red
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: orange;
+}
+p{
+    color: white;
+}
+button{
+    background: orange;
+    border-radius: 7px;
+}
+button:hover{
+    background: rgb(151, 100, 4);
+}
+button:active{
+    transform: scale(0.95) 
 
 }
