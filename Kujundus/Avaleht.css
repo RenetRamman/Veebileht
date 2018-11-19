@@ -14,10 +14,12 @@ p{
 }
 button{
     background: orange;
-    border-radius: 7px;
+    border-radius: 5px;
+    border: none;
 }
 button:hover{
-    background: rgb(151, 100, 4);
+    background: rgb(255, 198, 93);
+    cursor: pointer;
 }
 button:active{
     transform: scale(0.95) 
