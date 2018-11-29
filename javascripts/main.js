@@ -7,4 +7,7 @@ function tagasi(){
    
     window.open("leht.html", "_self")
     
- }
+}
+function clickDownload() {
+   document.getElementById("DownloadForm").submit();
+}
