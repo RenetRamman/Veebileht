@@ -43,6 +43,7 @@ button:active{
     border-radius: 5px;
     background-color: #2A3745;
     box-shadow: 4px 4px #202a35;
+    margin-top: 10px
 }
 .content{
 	max-width: 80%;
