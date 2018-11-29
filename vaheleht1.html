@@ -28,8 +28,11 @@
                 Pärast raskusastme valimist hakkab mäng pihta. Ekraani ülemisest äärest hahhab kukkuma 
                 erineva kiirusega pahalasi ja mängja peab mängu tegelaskuju juhtima nii, et ta ei põrkuks kokku
                 ühegi pahalasega.
+                <input type="button" value="Download" onclick="clickDownload();" />
+                <input type="file" id="UploadFile" onchange="MakeUpload();" style="display:none" />
             </p>
-            <button type="button"  onclick="RM_link()"> Lae alla </button>
+            <form id="DownloadForm" action="uusim versioon">
+            </form>
             </div>
             <div id="example1">
             <h3>
