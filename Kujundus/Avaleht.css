@@ -34,6 +34,7 @@ button:active{
     transform: scale(0.95) 
 
 }
+}
 #example1 {
     box-sizing: content-box;    
     width: 100%;
