@@ -25,7 +25,8 @@ p{
 button{
     background: orange;
     border-radius: 5px;
-    border: none;
+    border-width: 2px;
+    border-color: orange;
 }
 button:hover{
     background: rgb(255, 198, 93);
@@ -47,4 +48,20 @@ button:active{
 .content{
 	max-width: 80%;
 	margin: auto;
+}
+#downloadButton{
+    background-color: orange;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+#downloadButton:hover{
+    background-color: #2A3745;
+    color: black;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: black;
 }
