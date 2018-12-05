@@ -38,12 +38,14 @@ button:active{
 }
 #example1 {
     box-sizing: content-box;    
-    width: 100%;
+    width: 100% - 10px;
     height: 300px;
     border-radius: 5px;
     background-color: #2A3745;
     box-shadow: 4px 4px #202a35;
     margin-top: 10px;
+    padding-top: 1px;
+    padding-right: 10px;
 }
 .content{
 	max-width: 80%;
